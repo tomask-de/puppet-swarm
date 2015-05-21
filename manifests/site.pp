@@ -1,3 +1,3 @@
 node default {
-  include swarm-cli::latest
+  include swarmcli::latest
 }
