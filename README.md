@@ -37,7 +37,7 @@ git clone https://github.com/tomask-de/puppet-swarm.git
 
 ```
 cd puppet-swarm
-puppet apply -d -v --modulepath=modules manifests/site.pp
+sudo puppet apply -d -v --modulepath=modules manifests/site.pp
 ```
 
 ### Verify
