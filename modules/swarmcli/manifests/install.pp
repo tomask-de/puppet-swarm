@@ -12,7 +12,7 @@ define swarmcli::install($version) {
     }
 
     exec { "swarmcli-${version}-get":
-        command => "/usr/bin/wget --no-proxy http://downloads.giantswarm.io/sw\
+        command => "/usr/bin/wget http://downloads.giantswarm.io/sw\
 arm/clients/${version}/swarm-${version}-linux-amd64.tar.gz -O /root/swarm-\
 ${version}-linux-amd64.tar.gz",
         require => Package['wget'],
